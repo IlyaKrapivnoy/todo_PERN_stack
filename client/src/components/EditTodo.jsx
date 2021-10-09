@@ -69,6 +69,7 @@ const EditTodo = ({ todo }) => {
                                 type='button'
                                 class='btn btn-danger'
                                 data-dismiss='modal'
+                                onClick={() => setDescription(todo.description)}
                             >
                                 Close
                             </button>
